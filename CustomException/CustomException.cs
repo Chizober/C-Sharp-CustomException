@@ -24,7 +24,6 @@ namespace CustomExceptionHandling
             catch (EvenNumberException one)
             {
                 Console.WriteLine($"Message: {one.Message}");
-                // Console.WriteLine($"HelpLink: {one.HelpLink}");
                 Console.WriteLine($"Source: {one.Source}");
                 Console.WriteLine($"StackTrace: {one.StackTrace}");
             }
